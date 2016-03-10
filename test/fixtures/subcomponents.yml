@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  behaviour: MyString
+  refid: MyString
+  ownerid: 1
+  editorid: MyString
+  followerid: MyString
+  views: 1
+  viewable: false
+  active: false
+  title: MyString
+  subs: MyText
+  description: MyText
+  titleimage: MyString
+  meat: MyText
+
+two:
+  behaviour: MyString
+  refid: MyString
+  ownerid: 1
+  editorid: MyString
+  followerid: MyString
+  views: 1
+  viewable: false
+  active: false
+  title: MyString
+  subs: MyText
+  description: MyText
+  titleimage: MyString
+  meat: MyText

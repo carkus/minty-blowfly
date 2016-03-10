@@ -1,0 +1,69 @@
+<%= form_for(@subcomponent) do |f| %>
+  <% if @subcomponent.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@subcomponent.errors.count, "error") %> prohibited this subcomponent from being saved:</h2>
+
+      <ul>
+      <% @subcomponent.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :behaviour %><br>
+    <%= f.text_field :behaviour %>
+  </div>
+  <div class="field">
+    <%= f.label :refid %><br>
+    <%= f.text_field :refid %>
+  </div>
+  <div class="field">
+    <%= f.label :ownerid %><br>
+    <%= f.number_field :ownerid %>
+  </div>
+  <div class="field">
+    <%= f.label :editorid %><br>
+    <%= f.text_field :editorid %>
+  </div>
+  <div class="field">
+    <%= f.label :followerid %><br>
+    <%= f.text_field :followerid %>
+  </div>
+  <div class="field">
+    <%= f.label :views %><br>
+    <%= f.number_field :views %>
+  </div>
+  <div class="field">
+    <%= f.label :viewable %><br>
+    <%= f.check_box :viewable %>
+  </div>
+  <div class="field">
+    <%= f.label :active %><br>
+    <%= f.check_box :active %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :subs %><br>
+    <%= f.text_area :subs %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :titleimage %><br>
+    <%= f.text_field :titleimage %>
+  </div>
+  <div class="field">
+    <%= f.label :meat %><br>
+    <%= f.text_area :meat %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,145 @@
+
+<% provide(:title, @user.username) %>
+
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.username %>
+      </h1>
+
+
+    </section>
+  </aside>
+</div>
+
+
+<p>
+  <strong>ID:</strong>
+  <%= @user.id %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @user.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @user.password %>
+</p>
+
+<p>
+  <strong>Salt:</strong>
+  <%= @user.salt %>
+</p>
+
+<p>
+  <strong>Refid:</strong>
+  <%= @user.refid %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @user.active %>
+</p>
+
+<p>
+  <strong>Follows:</strong>
+  <%= @user.follows %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @user.text %>
+</p>
+
+<p>
+  <strong>Tagline:</strong>
+  <%= @user.tagline %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @user.status %>
+</p>
+
+<p>
+  <strong>Userimage:</strong>
+  <%= @user.userimage %>
+</p>
+
+<p>
+  <strong>Titleimage:</strong>
+  <%= userimage_for @user %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
+
+
+<div class="panel ck-panel ck-no-padding ck-box-profile"
+     ng-style="{'background':'#eee', 'margin-bottom': '20px'}">
+
+  <div class="panel-heading ck-panel-header-plain">
+
+    <span class="ck-text-ui ck-0-8">. {{userprofile.userid}} .</span>
+
+    <div class="dropdown panel-right ck-dropdown">
+
+      <button class="btn ck-bg-trans" id="selectButton" data-toggle="dropdown">
+        <span class="caret"></span>
+      </button>
+
+      <ul class="dropdown-menu ck-dropdown-menu ck-text-menu">
+        <li><a><strong>1</strong></a></li>
+        <li><a><strong>2</strong></a></li>
+        <li><a><strong>3</strong></a></li>
+      </ul>
+
+    </div>
+
+    <!--ui-dropdown type="profile" sendid="{{x.userid}}" /-->
+
+  </div>
+
+  <div class="panel-body ck-profile-body">
+    <div class="row" >
+      <div class="ck-thumbnail ck-profile-titleimage">
+        <%= userimage_for @user %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">
+        <div class="pull-left thumbnail ck-thumbnail ck-thumb-profile ck-action" style="height: 190px">
+          <%= userimage_for @user %>
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="ck-text-profile-name ck-text-right ck-text-ui"><%= @user.username %></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="ck-text-body ck-text-right"><strong><%= @user.tagline %></strong></div>
+      </div>
+      <div class="col-xs-12">
+        <div class="ck-text-body">Status: <%= @user.status %></div>
+      </div>
+    </div>
+
+    <div class="panel-footer ck-footer ck-text-body">
+      <span class="ck-text">
+          <span class="fa fa-fw fa-clock-o"></span>&nbsp;{{getTimeElapsed(userprofile.lastactive) || 'Just Now'}}&nbsp;&nbsp;
+        <!--span class="fa fa-fw fa-mail ck-text-right">&nbsp;{{userprofile.email}}&nbsp;&nbsp;</span-->
+      </span>
+    </div>
+
+  </div>
+</div>

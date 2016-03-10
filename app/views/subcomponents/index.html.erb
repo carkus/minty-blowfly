@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Subcomponents</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Behaviour</th>
+      <th>Refid</th>
+      <th>Ownerid</th>
+      <th>Editorid</th>
+      <th>Followerid</th>
+      <th>Views</th>
+      <th>Viewable</th>
+      <th>Active</th>
+      <th>Title</th>
+      <th>Subs</th>
+      <th>Description</th>
+      <th>Titleimage</th>
+      <th>Meat</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @subcomponents.each do |subcomponent| %>
+      <tr>
+        <td><%= subcomponent.behaviour %></td>
+        <td><%= subcomponent.refid %></td>
+        <td><%= subcomponent.ownerid %></td>
+        <td><%= subcomponent.editorid %></td>
+        <td><%= subcomponent.followerid %></td>
+        <td><%= subcomponent.views %></td>
+        <td><%= subcomponent.viewable %></td>
+        <td><%= subcomponent.active %></td>
+        <td><%= subcomponent.title %></td>
+        <td><%= subcomponent.subs %></td>
+        <td><%= subcomponent.description %></td>
+        <td><%= subcomponent.titleimage %></td>
+        <td><%= subcomponent.meat %></td>
+        <td><%= link_to 'Show', subcomponent %></td>
+        <td><%= link_to 'Edit', edit_subcomponent_path(subcomponent) %></td>
+        <td><%= link_to 'Destroy', subcomponent, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Subcomponent', new_subcomponent_path %>
