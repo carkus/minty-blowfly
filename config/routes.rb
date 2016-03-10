@@ -1,19 +1,21 @@
 Rails.application.routes.draw do
 
 
-  root 'pages#home'
+  root    'pages#home'
 
-  get 'directions' => 'pages#directions'
-  get 'about' => 'pages#about'
-  get 'contact' => 'pages#contact'
+  get     'directions'  => 'pages#directions'
+  get     'about'       => 'pages#about'
+  get     'contact'     => 'pages#contact'
 
-  resources :users
-  get    'login'   => 'sessions#new'
-  get    'signup'   => 'users#new'
-  post   'login'   => 'sessions#create'
-  delete 'logout'  => 'sessions#destroy'
+  get     'signup'      => 'users#new'
+
+  get     'login'       => 'sessions#new'
+  post    'login'       => 'sessions#create'
+  delete  'logout'      => 'sessions#destroy'
+
 
   # Resources
+  resources :users
 
   resources :articles do
     resources :comments
@@ -23,6 +25,7 @@ Rails.application.routes.draw do
   resources :subcomponents do
     resources :articles
   end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
