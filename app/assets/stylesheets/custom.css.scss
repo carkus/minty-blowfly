@@ -3,7 +3,11 @@
 
 /* mixins, variables, etc. */
 
+$gray: #c3c3c3;
 $gray-medium-light: #eaeaea;
+$gray-light: #f6f6f6;
+$gray-darker: #aba9a9;
+$state-danger-text: red;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
