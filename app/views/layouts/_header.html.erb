@@ -1,16 +1,18 @@
 
-  <header>
-    <div class="ck-header">
-      <%= link_to 'Scribbler',
-      {:controller => 'subcomponents', :action => 'index'},
-      {:class => 'application_title'} %>
-    </div>
-  </header>
-
-  <nav id="navbar">
-    <%= link_to 'Home', {:controller => 'pages', :action => 'home'}%>
-    <%= link_to 'About', {:controller => 'pages', :action => 'about'}%>
-    <%= link_to 'Directions', {:controller => 'pages', :action => 'directions'}%>
-    <%= link_to 'Articles', {:controller => 'articles', :action => 'index'}%>
-    <%= link_to 'Users', {:controller => 'users', :action => 'index'}%>
-  </nav>
+  <div class="ck-header">
+    <%= link_to 'Scribbler',
+                {:controller => 'subcomponents', :action => 'index'},
+                {:class => 'application_title'} %>
+  </div>
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li><%= link_to root_path do %><%= content_tag(:i, "", class: "fa fa-fw fa-home") %><% end %></li>
+      <% if logged_in? %>
+          <li><%= link_to users_path do %><%= content_tag(:i, "", class: "fa fa-fw fa-users") %><% end %></li>
+          <li><%= link_to current_user do %><%= content_tag(:i, "", class: "fa fa-fw fa-user") %><% end %></li>
+          <li><%= link_to logout_path, method: "delete" do %><%= content_tag(:i, "", class: "fa fa-fw fa-sign-out") %><% end %></li>
+      <% else %>
+          <li><%= link_to login_path do %><%= content_tag(:i, "", class: "fa fa-fw fa-sign-in") %><% end %></li>
+      <% end %>
+    </ul>
+  </div>
