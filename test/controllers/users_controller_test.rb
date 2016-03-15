@@ -2,7 +2,7 @@ require 'test_helper'
 
 class UsersControllerTest < ActionController::TestCase
   setup do
-    @user = users(:one)
+    @user = users(:carkus)
   end
 
   test "should get index" do
@@ -20,7 +20,6 @@ class UsersControllerTest < ActionController::TestCase
     assert_difference('User.count') do
       post :create, user: { active: @user.active, email: @user.email, follows: @user.follows, password: @user.password, refid: @user.refid, salt: @user.salt, status: @user.status, tagline: @user.tagline, text: @user.text, titleimage: @user.titleimage, userimage: @user.userimage, username: @user.username }
     end
-
     assert_redirected_to user_path(assigns(:user))
   end
 
@@ -36,7 +35,7 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should update user" do
     patch :update, id: @user, user: { active: @user.active, email: @user.email, follows: @user.follows, password: @user.password, refid: @user.refid, salt: @user.salt, status: @user.status, tagline: @user.tagline, text: @user.text, titleimage: @user.titleimage, userimage: @user.userimage, username: @user.username }
-    assert_redirected_to user_path(assigns(:user))
+    assert_redirected_to users_path(assigns(:user))
   end
 
   test "should destroy user" do
@@ -44,6 +43,6 @@ class UsersControllerTest < ActionController::TestCase
       delete :destroy, id: @user
     end
 
-    assert_redirected_to users_path
+    assert_redirected_to user_path
   end
 end

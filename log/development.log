@@ -46175,3 +46175,1076 @@ Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436
 
 
 Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-12 10:31:10 +1100
+
+
+Started GET "/" for ::1 at 2016-03-15 13:44:30 +1100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.0ms)
+  [1m[35mUser Load (35.9ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered layouts/_header.html.erb (133.8ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2166ms (Views: 2084.9ms | ActiveRecord: 67.7ms)
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-15 13:44:33 +1100
+
+
+Started GET "/assets/body.png" for ::1 at 2016-03-15 13:44:34 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 13:44:35 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 13:44:35 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 13:44:35 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 13:44:35 +1100
+
+
+Started DELETE "/logout" for ::1 at 2016-03-15 13:44:40 +1100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UOBpAPhAPigdewsK6xHxUa/Rwysa/fOhTydN+AK+TNzKI8xTfwwPnccxka4KgveP/fTTAoPa1lGyShTXgUpaaQ=="}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "C:/@Ruby/minty-blowfly/app/views"
+):
+  actionview (4.2.5.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5.1) lib/action_view/lookup_context.rb:121:in `find'
+  C:in `find_template'
+  actionview (4.2.5.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  C:/Ruby22/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5.1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby22/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby22/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby22/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (607.4ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (555.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby22/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (1221.5ms)
+
+
+Started GET "/signup" for ::1 at 2016-03-15 13:44:46 +1100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (23.0ms)
+  Rendered users/new.html.erb within layouts/application (134.0ms)
+  [1m[36mUser Load (10.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (13.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 269ms (Views: 257.8ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-15 13:44:50 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m  [["id", "2"]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 147ms (Views: 143.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-15 13:44:53 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for ::1 at 2016-03-15 13:44:58 +1100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-15 13:44:59 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m  [["id", "2"]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 122ms (Views: 118.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2" for ::1 at 2016-03-15 15:14:25 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 197ms (Views: 154.9ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-15 15:14:26 +1100
+
+
+Started GET "/assets/body.png" for ::1 at 2016-03-15 15:14:27 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:14:27 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:14:27 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:14:27 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:14:27 +1100
+
+
+Started DELETE "/logout" for ::1 at 2016-03-15 15:14:28 +1100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IBAHdnPzSZBDl5ws3CJgXJE1t/nd+lhCkcvxdVcz6nG606Il9L94JZndBog9sWaCwxCn0ETdfbJspqha1Mf8xA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-15 15:14:28 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:28 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/body.png" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:14:29 +1100
+
+
+Started GET "/" for ::1 at 2016-03-15 15:16:10 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:16:10 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/body.png" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for ::1 at 2016-03-15 15:16:11 +1100
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 97ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:27 +1100
+
+
+Started GET "/assets/body.png" for 127.0.0.1 at 2016-03-15 15:16:28 +1100
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-15 15:16:31 +1100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (7.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 118ms (Views: 116.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vx0LFv8IyJN/0nCOJaUxHeEx4twKJKjo9ZhQmWT6Rbbl51WCCIAdnYDGfg6/cYq3Egp4sojkljjGq6dxQzg4YQ==", "session"=>{"email"=>"dicarkus@hotmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'dicarkus@hotmail.com' LIMIT 1
+Redirected to http://127.0.0.1:3000/users/2
+Completed 302 Found in 70ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 122ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:39 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/assets/body.png" for 127.0.0.1 at 2016-03-15 15:16:40 +1100
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 111ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:58 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/assets/body.png" for 127.0.0.1 at 2016-03-15 15:16:59 +1100
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-03-15 15:17:05 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 122ms (Views: 118.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-03-15 15:17:07 +1100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:17:07 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-f865964da2a45b02d79b87877231776a5f73f94460fb3ea16047b9275edc9355.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/collections.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/custom.self-5c9fef035ab87bb9000f0af3dd890ab5428f42fdb107436bb92fae870ca2115d.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/articles.self-96444bcfa1a914e68383e63eccdc0321c14d3581dfda8468622d721e389688cc.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/scaffolds.self-3998da87842a767a4fe9641b22722f6c6960c87f311767900b0c5b0e6246414e.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/sidebar.self-f463adc1e45346c38d66211f537a8aa85753dcf19c8870d6da9cbf36d07714dd.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/subcomponents.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/application.self-0db24b4ca967406302c555bc7879aba5643462f444c48193de8680ef2d4a4d26.css?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/bootstrap.min.self-8cde9b19af4a2a01cdc2175ba2396d66f14cdf687893f76b94ac336912a6e4fa.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/collections.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/subcomponents.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/users.self-5583f4e5d4a1435453b3dc332bcd0653b891cfcfd779931e06db3abe3d05c3bd.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/assets/body.png" for 127.0.0.1 at 2016-03-15 15:17:20 +1100
+
+
+Started GET "/login" for 127.0.0.1 at 2016-03-15 15:17:22 +1100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-03-15 15:17:30 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4dtzE4P13YgJL4yXQC8Wf+pkKaDePQIzF1Odlp2L06iOJYAGcBWwp4DdXJO78jDXSnGOAug7Jl/96JZ3C390lg==", "session"=>{"email"=>"dicarkus@hotmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'dicarkus@hotmail.com' LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/users/2
+Completed 302 Found in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2016-03-15 15:17:30 +1100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m  [["id", "2"]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 120ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:17:46 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/body.png" for 127.0.0.1 at 2016-03-15 15:17:46 +1100
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2016-03-15 15:17:48 +1100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ygZzGE1GklyJE4RUbzl0Gclzh9p3EHfUA/ryEghDigOl+IANvqb/cwDhVFCU5FKxaWYgeEEWU7jpQfnznrctPQ=="}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-15 15:17:48 +1100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddRememberDigestToUsers (20160315042220)
+  [1m[35m (522.4ms)[0m  ALTER TABLE `users` ADD `remember_digest` varchar(255)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160315042220')
+  [1m[36m (17.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blowfly_development'
+  AND fk.table_name = 'articles'
+[0m
+  [1m[35m (0.0ms)[0m  SHOW CREATE TABLE `articles`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blowfly_development'
+  AND fk.table_name = 'collections'
+[0m
+  [1m[35m (0.0ms)[0m  SHOW CREATE TABLE `collections`
+  [1m[36m (0.0ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blowfly_development'
+  AND fk.table_name = 'comments'
+[0m
+  [1m[35m (0.5ms)[0m  SHOW CREATE TABLE `comments`
+  [1m[36m (0.0ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blowfly_development'
+  AND fk.table_name = 'subcomponents'
+[0m
+  [1m[35m (0.0ms)[0m  SHOW CREATE TABLE `subcomponents`
+  [1m[36m (0.0ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'blowfly_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.0ms)[0m  SHOW CREATE TABLE `users`
